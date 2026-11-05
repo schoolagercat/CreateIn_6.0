@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pengumuman Hasil CREATE-IN 6.0</title><link rel="icon" href="assets/icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P:wght@400;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><img src="assets/icon.png" alt="" width="36"><b>CREATE-IN 6.0</b></header>
+<main class="wrap">
+<section data-view="home">
+ <div class="hero"><div><h1>Pengumuman Hasil<br>CREATE-IN 6.0</h1>
+ <p class="lead">Masukkan nama tim untuk melihat status seleksi dan rincian penilaian proposal.</p>
+ <form id="form" class="px cari"><label for="nama">Nama tim</label><div><input id="nama" autocomplete="off" placeholder="Contoh: Tim Nusantara"><button class="btn">Lihat Hasil</button></div></form></div>
+ <img class="logo" src="assets/icon.png" alt="Logo CreateIn" width="200"></div>
+ <h2>Apa itu CREATE-IN 6.0?</h2>
+ <div class="px box"><p>CREATE-IN 6.0 adalah lomba business plan: setiap tim mengajukan ide bisnis beserta proposalnya, lalu dinilai oleh juri.</p>
+ <h3>Kriteria penilaian</h3><ul id="kriteria"></ul>
+ <p class="note">Proposal yang melebihi batas halaman dikurangi 2 poin untuk setiap 10 halaman berlebih.</p></div>
+</section>
+<section data-view="loading" hidden class="center"><div class="px box"><h2 id="lmsg">Mencari data tim…</h2><div class="meter"><i id="lbar"></i></div></div></section>
+<section data-view="hasil" hidden class="center"><div class="px box" id="hasil"></div></section>
+<section data-view="rincian" hidden><div id="rincian"></div></section>
+<section data-view="nf" hidden class="center"><div class="px box"><span class="badge no">Tidak ditemukan</span><h2>Data tidak ditemukan</h2><p>Nama tim tidak cocok dengan data kami. Periksa penulisan nama tim, lalu coba lagi.</p><p><button class="btn" data-go="home">Coba lagi</button></p></div></section>
+<section data-view="nd" hidden class="center"><div class="px box"><span class="badge no">Belum tersedia</span><h2>Rincian belum tersedia</h2><p>Rincian penilaian tim ini belum dipublikasikan.</p><p><button class="btn" data-go="hasil">Kembali ke hasil</button></p></div></section>
+</main><footer>CREATE-IN 6.0</footer>
+<script src="data.js"></script><script src="script.js"></script></body></html>
