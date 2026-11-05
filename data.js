@@ -226,7 +226,7 @@ window.DATA={
    ]
   },
   {
-   "nama": "Paldo Bogor",
+   "nama": "[23:26, 8/1/2026] Paldo Bogor: Gile Juga Idenya",
    "skor": [
     [
      93.0,
